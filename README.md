@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [tanem/realtime-bar-graph](http://github.com/tanem/realtime-bar-graph). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/tanem-realtime-bar-graph`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # realtime-bar-graph
 
 A bar graph that displays information in real time using canvas.

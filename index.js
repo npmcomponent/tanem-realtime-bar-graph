@@ -1,10 +1,10 @@
 'use strict';
 
-var raf = require('raf');
-var bind = require('bind');
-var domify = require('domify');
+var raf = require('component-raf');
+var bind = require('component-bind');
+var domify = require('component-domify');
 var template = require('./template.html');
-var autoscale = require('autoscale-canvas');
+var autoscale = require('component-autoscale-canvas');
 
 /**
  * Expose `RealtimeBarGraph`.

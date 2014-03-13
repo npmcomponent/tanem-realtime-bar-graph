@@ -1,28 +1,23 @@
 {
-  "name": "realtime-bar-graph",
+  "name": "tanem-realtime-bar-graph",
   "description": "A bar graph that displays information in real time using canvas.",
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/tanem/realtime-bar-graph.git"
+  "version": "2.0.24",
+  "keywords": [
+    "bar",
+    "graph",
+    "realtime"
+  ],
+  "main": "index.js",
+  "styles": [
+    "realtime-bar-graph.css"
+  ],
+  "dependencies": {
+    "component-raf": "git://github.com/npmcomponent/component-raf.git",
+    "KenanY-isInteger": "git://github.com/npmcomponent/KenanY-isInteger.git",
+    "component-bind": "git://github.com/npmcomponent/component-bind.git",
+    "ianstormtaylor-reset": "git://github.com/npmcomponent/ianstormtaylor-reset.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-autoscale-canvas": "git://github.com/npmcomponent/component-autoscale-canvas.git"
   },
-  "devDependencies": {
-    "mocha": "*"
-  },
-  "testling": {
-    "harness": "mocha",
-    "browsers": [
-      "ie/latest",
-      "chrome/latest",
-      "firefox/latest",
-      "safari/latest",
-      "opera/latest",
-      "iphone/latest",
-      "ipad/latest",
-      "android-browser/latest"
-    ],
-    "scripts": [
-      "build/build.js",
-      "test/realtime-bar-graph.spec.js"
-    ]
-  }
+  "license": "MIT"
 }
